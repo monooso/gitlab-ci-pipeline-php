@@ -10,5 +10,5 @@ Docker container for testing [Laravel][laravel] projects in the GitLab CI pipeli
 Build the Docker images from the repository root. For example:
 
 ```bash
-docker build -t monooso/gitlab-ci-pipeline:7.3 -f Dockerfile-7.3 .
+docker build -t monooso/gitlab-ci-pipeline-php:7.3 -f Dockerfile-7.3 .
 ```
